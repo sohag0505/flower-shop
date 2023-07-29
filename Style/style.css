@@ -1,0 +1,237 @@
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.text-header {
+  color: rgb(187, 93, 93);
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.text-description {
+  margin-bottom: 30px;
+}
+
+.btn-shop {
+  padding: 8px;
+  background-color: rgb(177, 40, 40);
+  border-radius: 5px;
+  color: white;
+}
+
+.feature-header {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.feature-header-des {
+  font-size: 42px;
+  color: rgb(192, 45, 45);
+}
+
+.img-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.image {
+  background-color: antiquewhite;
+  margin-top: 50px;
+}
+
+.image1 {
+  background-color: antiquewhite;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+
+.image2 {
+  background-color: antiquewhite;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+
+.support-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: azure;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 60px;
+}
+
+.hot-flower-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: antiquewhite;
+}
+
+.new-title {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.leatest-flower {
+  text-align: center;
+  background-image: url("/Flower Asset/Rectangle\ 9.png");
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.feature-header-description {
+  font-size: 42px;
+  color: rgb(192, 45, 45);
+}
+
+.input-edit {
+  padding: 8px;
+}
+
+.footer-section {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.style {
+  color: white;
+}
+
+.small {
+  color: rgb(69, 66, 66);
+}
+
+/* mobaile responsive */
+
+@media screen and (max-width: 576px) {
+  .header-title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+  .text-header {
+    color: rgb(187, 93, 93);
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .text-description {
+    margin-bottom: 10px;
+  }
+  .btn-shop {
+    padding: 4px;
+    background-color: rgb(177, 40, 40);
+    border-radius: 5px;
+    color: white;
+  }
+  .feature-header {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .feature-header-des {
+    font-size: 42px;
+    color: rgb(192, 45, 45);
+    padding-left: 40px;
+  }
+  .img-title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .image {
+    background-color: antiquewhite;
+    margin-top: 40px;
+    padding-left: 30px;
+  }
+  .image1 {
+    background-color: antiquewhite;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+  .image2 {
+    background-color: antiquewhite;
+    padding-left: 70px;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+  .support-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: azure;
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-right: 25px;
+    padding: 10px;
+  }
+  .hot-flower-header {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    padding: 5px;
+  }
+  .new-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .image11 {
+    margin-left: 70px;
+  }
+  .leatest-flower {
+    text-align: center;
+    background-image: url("/Flower Asset/Rectangle\ 9.png");
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .feature-header-description {
+    font-size: 25px;
+    color: rgb(192, 45, 45);
+  }
+  .input-edit {
+    padding: 4px;
+  }
+  .footer-section {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+  .style {
+    color: white;
+  }
+  .small {
+    color: rgb(69, 66, 66);
+  }
+}
